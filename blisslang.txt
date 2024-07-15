@@ -1,0 +1,8 @@
+English	en_US
+Français	fr_FR
+Ελληνικά	el_GR
+Русский	ru_RU
+עברית	iw_IL
+中文 (中国)	zh_CN
+日本語 (日本)	ja_JP
+italiano	it_IT
