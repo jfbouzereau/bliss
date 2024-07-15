@@ -1,0 +1,104 @@
+body
+{
+	position	: relative;
+	margin		: 0;
+	padding		: 20px;
+	border		: 0;
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 10px;
+	color		: black;
+	width		: 700px;
+}
+
+
+.title	{
+	display:	block;
+	font-size:	18px;	
+	padding:	20px;
+	text-align	: center;
+	}
+
+.head	{
+	display:	block;
+	border-top:	solid black 3px;
+	border-bottom:	solid black 3px;
+	text-align:	center;
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	14px;
+	font-style:	bold;	
+	}
+
+.sep	{
+	width		: 200px;
+	border-top		: black solid 1px;
+	align		: center;
+	line-height	: 5px;
+	font-size	: 5px;
+	}
+
+.para	{
+	display:	block;
+	line-height:	18px;
+	padding	:	2px;
+	text-align:	justify;
+	}
+
+.marquee	{
+	display:	inline;
+	background:	black;
+	color		:white;
+	line-height	: 18px;
+	padding		: 2px;
+	}
+
+.legend	{
+	display:	inline;
+	line-height	: 18px;
+	}
+
+h1	{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 24px;
+	}
+
+H2	{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 18px;
+	font-weight	: normal;
+	display		: inline;
+	}
+
+H3	{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 14px;
+	font-weight	: normal;
+	display		: inline;
+	}
+
+H4	{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 12px;
+	font-weight	: normal;
+	display		: inline;
+	}
+
+
+H5, H6	{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 10px;
+	font-weight	: normal;
+	display		: inline;
+	}
+
+	{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 10px;
+	color: #333333;
+	}
+img
+	{
+	border-width: 0;
+	}
+
+
+

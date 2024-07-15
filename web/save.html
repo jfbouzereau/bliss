@@ -1,0 +1,18 @@
+<html>
+
+<script>
+function init()
+{
+if(opener.tobesaved)
+	{
+	document.open();
+	document.write(opener.tobesaved);
+	document.close();
+	}
+}
+</script>
+
+<body onload="init()">
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+
+<script type='text/javascript'>
+var ss = unescape(ss)
+var i = ss.indexOf("waitingLoad")
+if(i>0)
+    {
+    ss = ss.substr(i,20)
+    i = ss.indexOf("(")
+    if(i>0)
+        ss = ss.substr(0,i)
+    ss = ss + " = new Function()"
+    try { eval(ss) } catch(er) {}
+    }
+</script>
+
+
+<link rel=stylesheet href=bliss.css type="text/css" />
+
+<html>
+
+<title>The Search widget</title>
+
+
+<a href="bliss0.html">[Home]</a>
+<a href="bliss2.html">[Instant Messaging]</a>
+<a href="bliss1.html">[Page]</a>
+<a href="bliss3.html">[Drawing Board]</a>
+<a href="bliss4.html">[Search]</a>
+
+<div class="title">The Search widget</div>
+
+<center>
+<a href="bliss4.jpg" target="blank" ><img src="bliss4-half.jpg"></a>
+</center>
+
+<br>
+
+<div class="marquee">1</div>
+<div class="legend">Open the dictionary.</div>
+<br>
+
+<div class="marquee">2</div>
+<div class="legend">Open a new page.</div>
+<br>
+
+<div class="marquee">3</div>
+<div class="legend">Open the Instant Messaging widget.</div>
+<br>
+
+<div class="marquee">4</div>
+<div class="legend">Open the drawing board.</div>
+<br>
+
+<div class="marquee">5</div>
+<div class="legend">Open a new search widget.</div>
+<br>
+
+<div class="marquee">6</div>
+<div class="legend">Open the language selection widget.</div>
+<br>
+
+<div class="marquee">7</div>
+<div class="legend">Type some text to find all the words of the dictionary
+containing this text.</div>
+<br>
+
+<div class="marquee">8</div>
+<div class="legend">Drag a composed word to the search widget to
+find all the bliss words containing this combination of shapes.</div>
+<br>
+
+<div class="marquee">9</div>
+<div class="legend">Drag a shape to the search widget to
+find all bliss words containing this shape.</div>
+<br>
+
+
+</html>
+
+<!--
